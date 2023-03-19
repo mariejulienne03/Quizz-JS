@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="quizz.css">
+</head>
+<body>
+    <h1><span>Quizz</span> Culture générale.</h1>
+
+    <form id="quizz-form">
+        <div class="question1">
+            <h3> Qui est sacré empereur de France le 2 décembre 1804 ?</h3>
+
+            <input type="radio" name="choix" id="a" value="faux" >Clovis<br>
+            <input type="radio" name="choix" id="b" value="faux" >Abraham Lincoln<br>
+            <input type="radio" name="choix" id="c" value="correct" >Napoléon Bonapart<br>
+        </div>
+
+        <div class="question2">
+            <h3>Quand la déclaration d'indépendance des Etats-Unis a-t-elle été votée?</h3>
+            <input type="radio" name="choix2" id="a" value="correct">4 juillet 1776<br>
+            <input type="radio" name="choix2" id="b" value="faux">18 avril 1856<br>
+            <input type="radio" name="choix2" id="c" value="faux">30 juin 1925<br>
+        </div>
+
+        <div class="question3">
+            <h3>Quand a eu lieu la chute de l'empire romain d'occident?</h3>
+            <input type="radio" name="choix3" id="a" value="faux">15 ap. J-C<br>
+            <input type="radio" name="choix3" id="b" value="correct">476 ap. J-C<br>
+            <input type="radio" name="choix3" id="c" value="faux">-740 ap. J-C<br>
+        </div>
+
+        <div class="question4">
+            <h3>Quelle est la capitale de la Slovénie?</h3>
+            <input type="radio" name="choix4" id="a" value="correct">Ljubljana<br>
+            <input type="radio" name="choix4" id="b" value="faux">Belgrade<br>
+            <input type="radio" name="choix4" id="c" value="faux">Bratislava<br>
+        </div>
+
+        <button type="submit" id="valider">VALIDER ✔️</button>
+    </form>
+      
+
+    
+    <div id="consigne">Cliquez sur valider pour voir les <span> résultats</span></div>
+
+    <div id="resultats"> </div>
+    <script src = "quizz.js"></script>
+</body>
+</html>
